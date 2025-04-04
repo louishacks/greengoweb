@@ -1,0 +1,21 @@
+{
+  "name": "greengoweb-proxy",
+  "version": "1.0.0",
+  "description": "Proxy pour l'API WebsiteCarbon via Render",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [],
+  "author": "Louis Hacks",
+  "license": "MIT"
+}
